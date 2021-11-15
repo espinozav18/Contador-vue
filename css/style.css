@@ -1,0 +1,25 @@
+body{
+    /*background-image: url('/img/fondo.jpg');*/
+    background-color: black;
+    color: #ffc107;
+}
+.center{
+    text-align: center;
+}
+.exponent{
+    border-left: 0px;
+    background-color: transparent;
+    color: #ff0000 !important;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: solid;
+    width: 28%;
+}
+@media (max-width: 600px) {
+    .exponent {
+        width: 10%;
+    }
+  }
+.sub{
+    top: -0.7em;
+}
